@@ -1,0 +1,171 @@
+.menu {
+    position: absolute;
+    right: 22px;
+    top: 7px;
+}
+
+.list-menu {
+    box-shadow: 0 2px 4px 0;
+    padding: 15px 30px;
+    display: inline-flex;
+    margin: 1px;
+    background: #4400e812;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #3e54c1c7;
+}
+
+.add-category {
+    padding: 30px 40px 0 40px;
+    width: 33%;
+}
+
+.add-word {
+    display: none;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.words-wrapper {
+    margin: 30px 0;
+}
+
+.input-new-type {
+    display: inline;
+    margin: 12px 0;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    font-size: 14px;
+    color: #585669;
+}
+
+.input-new-type:focus {
+    outline-width: 0;
+}
+
+.list-link {
+    display: block;
+    text-decoration: none;
+    color: #4e01e4;
+}
+
+.list-of-category {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 20px;
+}
+
+.div-link {
+    display: inherit;
+    width: 33%;
+    text-align: center;
+    margin: 5px 0;
+    box-shadow: 0 4px 10px -10px;
+    height: 5.5em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.div-link:after {
+    /*content: ""; !* This is necessary for the pseudo element to work. *!*/
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.div-link:hover {
+    background-color: #b2afbd17;
+    box-shadow: 0 6px 13px -9px;
+    border-radius: 0 10px;
+}
+
+.item-close {
+    display: none;
+    position: absolute;
+    right: 4px;
+    top: 0;
+    font-size: 9px;
+    color: #c3c3c3;
+    cursor: pointer;
+    margin: 1em 0;
+}
+
+.item-rearrangement {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 9px;
+    color: #c3c3c3;
+    cursor: pointer;
+}
+
+.delete-word {
+    display: none;
+    position: absolute;
+    left: 326px;
+    top: 17px;
+    font-size: 9px;
+    color: #c3c3c3;
+    cursor: pointer;
+}
+
+.button-add {
+    color: green;
+    cursor: pointer;
+}
+
+.rearrange-word {
+    display: none;
+    position: absolute;
+    left: 306px;
+    top: 17px;
+    font-size: 9px;
+    color: #c3c3c3;
+    cursor: pointer;
+}
+
+.rearrange-category {
+    display: none;
+    position: absolute;
+    right: 19px;
+    top: 0;
+    font-size: 9px;
+    color: #c3c3c3;
+    cursor: pointer;
+    margin: 1em 0;
+}
+
+.wrap-definition-and-sign {
+    display: inline;
+    width: 150%;
+}
+
+.button-rearrangement {
+    color: green;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.add-word_title {
+    font-size: 13px;
+    color: #c8c4d4;
+    display: block;
+}
+
+.input-new-word:focus {
+    outline-width: 0;
+}
+
+.input-new-word {
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    margin: 20px 5px 0 0;
+    font-size: 16px;
+    color: #585669;
+}

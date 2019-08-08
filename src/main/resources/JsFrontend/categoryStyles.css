@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* full window width */
+    /*text-align: center;*/
+    background-color: #4a006812;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+span {
+    color: rgb(62, 24, 113);
+    font-size: 17px;
+    /*margin-top: 20px;*/
+}
+
+.header {
+    background: url("./img/purple-bubbles.jpg") no-repeat center;
+    /*background-color: #49453f3b;*/
+    height: 240px;
+}
+
+.header-element-position {
+    text-align: center;
+    margin: 0;
+}
+
+.content {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.content-box {
+    margin-top: -100px;
+    position: relative;
+    /*box-shadow: 1px -3px 20px -6px;*/
+    box-shadow: 0 5px 20px -8px;
+    margin-bottom: 10px;
+}
+
+.content__box-value {
+    /*min-height: 600px;*/
+    position: relative;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.content__line-design {
+    height: 15px;
+    background-color: #9160bf6e;
+}
+
+.content__required-info {
+    display: none;
+    font-size: 13px;
+    max-width: 40%;
+    margin: 10px 0 10px 30px;
+    color: #0500007d;
+}
+
+.required-sign {
+    color: #ff0008;
+    display: contents;
+}
+
+.view-content-list {
+    padding: 0 15px;
+}
+
+.total-point-view {
+    position: absolute;
+    right: 30px;
+    top: 65px;
+    background: #0000d4cc;
+    color: #f7efef;
+    padding: 5px;
+    border-radius: 7px;
+    display: none;
+}
+
+.view-content__list-item_crossMark:before {
+    content: "\00d7";
+    font-size: 20px;
+    color: #ad2525d4;
+    position: absolute;
+    top: 27px;
+    margin: 5px;
+}
+
+.view-content__list-item_checkMark:before {
+    content: "\2713";
+    font-size: 20px;
+    color: #168a16d4;
+    position: absolute;
+    top: 27px;
+    margin: 5px;
+}
+
+.onePointForAnswer:after {
+    content: "1/1";
+    color: #0000008c;
+    font-size: 16px;
+    position: absolute;
+    right: -225px;
+    top: 30px;
+    font-family: initial;
+}
+
+.zeroPointForAnswer:after {
+    content: "0/1";
+    color: #0000008c;
+    font-size: 16px;
+    position: absolute;
+    right: -225px;
+    top: 30px;
+    font-family: initial;
+}
+
+.view-content__list-item {
+    padding: 30px 30px 20px 30px;
+    text-align: left;
+    display: grid;
+    color: #000;
+    font-size: 18px;
+    line-height: 40px;
+    position: relative;
+    width: 50%;
+}
+
+.view-content__list-item_input-word {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom-color: #d3d3d3b8;;
+    padding-top: 30px;
+    background-color: transparent;
+    font-size: 16px;
+    /*width: 50%;*/
+}
+
+.correctWord {
+    padding: 0 20px;
+    background-color: #d8d8d833;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 165%;
+}
+
+.errorRequired {
+    margin: 0;
+    padding: 0 15px;
+    background: #fb00000a;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #980a0aed;
+    width: 165%;
+}
+
+.button-submit {
+    display: none;
+    min-width: 88px;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+    margin: 20px;
+    color: white;
+    font-size: 15px;
+    background-color: #7474a0;
+    /* letter-spacing: 0.5px; */
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.footer {
+    background-color: #49453f3b;
+    height: 150px;
+}
+
+.view-content__list-item_input-word:focus {
+    outline: none;
+}
+
+.footer-required-field {
+    position: absolute;
+    top: 19px;
+    font-size: 10px;
+    max-width: 400px;
+    margin: 0 15px;
+}
+
+.footer-title {
+    color: #d2caff;
+    width: 50%;
+    font-size: 65px;
+    padding: 50px;
+    margin: 0 auto;
+}
